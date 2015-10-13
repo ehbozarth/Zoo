@@ -11,6 +11,12 @@ public class Zoo {
         String animalName = scanner.nextLine();
         Animal animal = createAnimal(animalName);
         System.out.println(String.format("%s", animal));
+
+        /*
+        for (InventoryItem item : inventory){
+            System.out.println(num + ". " + quantity + " " + item.name + " " + item.category);
+            }//End of for loop
+         */
     }//End of Main Method
 
     static Animal createAnimal(String animalName){
