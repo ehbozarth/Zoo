@@ -3,7 +3,8 @@
  */
 public class Lion extends Mammal {
     @Override
-    public String toString(){
+    public String toString()
+    {
         return "Lion";
     }//End of toString
 }
